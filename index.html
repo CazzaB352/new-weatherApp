@@ -18,11 +18,31 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Enter city..."
+                  class="form-control"
+                  id="searched-city"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-info w-100"
+                />
+              </div>
+            </div>
+          </form>
           <div class="overview">
             <div class="container">
               <div class="row">
                 <div class="col-sm-8">searchBar</div>
-                <div class="col-sm-4" class="currentDate">date and time</div>
+                <div class="col-sm-4" id="currentDate">date and time</div>
               </div>
               <div class="row">
                 <div class="col-sm" id="icon">
@@ -30,12 +50,12 @@
                   <h1 id="city"></h1>
                 </div>
                 <div class="col-sm">
-                  <strong class="weather-temp">temperature °C </strong> |
+                  <strong id="weather-temp">temperature °C </strong> |
                   <a href="#" src="fahrenheitLink">°F</a>
                 </div>
                 <div class="col-sm">
                   <ul>
-                    <li id="wind">Wind: km/h</li>
+                    <li>Wind: <span id="wind"></span>km/h</li>
                     <li id="description"></li>
                   </ul>
                 </div>
