@@ -1,0 +1,21 @@
+body {
+  background: #6643b5;
+  color: #d5def5;
+}
+li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
