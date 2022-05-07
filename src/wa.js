@@ -59,8 +59,6 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
-search("London");
-
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", search);
 
