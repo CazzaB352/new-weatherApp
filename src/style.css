@@ -19,6 +19,11 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.currentLocationButton {
+  background: #d5def5;
+  color: #6643b5;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
