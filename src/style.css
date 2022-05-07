@@ -22,6 +22,8 @@ li:first-letter {
 .currentLocationButton {
   background: #d5def5;
   color: #6643b5;
+  font-weight: bold;
+  border-radius: 30;
 }
 
 .weather-app-wrapper {
