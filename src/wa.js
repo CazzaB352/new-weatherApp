@@ -27,7 +27,7 @@ function displayTemperature(response) {
   let cityElement = document.querySelector("#city");
   let descriptionElement = document.querySelector("#description");
   let windElement = document.querySelector("#wind");
-  let dateElement = document.querySelector("#currentDate");
+  let dateElement = document.querySelector("h1");
   let iconElement = document.querySelector("#icon");
 
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
