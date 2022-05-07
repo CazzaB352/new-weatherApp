@@ -15,6 +15,9 @@ li {
   line-height: 19px;
 }
 
+.currentButton {
+  color: #d5def5;
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
