@@ -24,7 +24,7 @@ function formatDate(timestamp) {
 
 function displayTemperature(response) {
   console.log(response.data);
-  let temperatureElement = document.querySelector("#weather-temp");
+  let temperatureElement = document.querySelector("h2");
   let cityElement = document.querySelector("#city");
   let descriptionElement = document.querySelector("#description");
   let windElement = document.querySelector("#wind");
@@ -42,6 +42,7 @@ function displayTemperature(response) {
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
+
 function search(event) {
   event.preventDefault();
   let apiKey = "5779c89c46453cf0e47b584677d15c00";
