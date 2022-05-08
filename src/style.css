@@ -3,9 +3,20 @@ body {
   color: #d5def5;
 }
 
+img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
 h1 {
   font-size: 35px;
   font-weight: bolder;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -42,7 +53,7 @@ li:first-letter {
   margin-bottom: 50px;
 }
 
-.weather-temp {
+.units {
   text-align: center;
   font-size: larger;
 }
