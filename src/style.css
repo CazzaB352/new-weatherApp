@@ -15,14 +15,11 @@ h1 {
   font-weight: bolder;
 }
 
-h2 {
-  padding-top: 35px;
-  text-align: center;
-  font-size: 30px;
-}
 h4 {
   background-color: #d5def5;
   color: #430f58;
+  padding: 10px 50px;
+  border-radius: 30px;
 }
 
 ul {
@@ -62,4 +59,9 @@ li:first-letter {
 
 .overview {
   margin-bottom: 50px;
+}
+
+.weather.temp {
+  text-align: center;
+  font-size: 30px;
 }
