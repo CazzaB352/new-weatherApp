@@ -18,7 +18,8 @@ h1 {
 h4 {
   background-color: #d5def5;
   color: #430f58;
-  padding: 10px 20px;
+  text-align: center;
+  padding-top: 15px 15px;
   border-radius: 30px;
 }
 
