@@ -20,7 +20,7 @@ h4 {
   left: 100px;
   background-color: #d5def5;
   color: #430f58;
-  padding: 10px 20px;
+  padding: 10px 50px;
   border-radius: 30px;
 }
 
@@ -62,9 +62,7 @@ li:first-letter {
 .overview {
   margin-bottom: 50px;
 }
-.city {
-  padding: 20px;
-}
+
 .weatherTemp {
   text-align: center;
   font-size: 30px;
