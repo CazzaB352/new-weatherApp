@@ -17,6 +17,7 @@ h1 {
 
 h4 {
   background-color: #d5def5;
+  object-fit: contain;
   color: #430f58;
   text-align: center;
   margin-top: 35px;
@@ -32,6 +33,7 @@ ul {
 
 li {
   list-style: none;
+  padding-top: 20px;
   font-size: 16px;
   font-weight: lighter;
   line-height: 19px;
