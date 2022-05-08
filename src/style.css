@@ -17,7 +17,7 @@ h1 {
 
 h4 {
   background-color: #d5def5;
-  object-fit: contain;
+  border-width: 10px;
   color: #430f58;
   text-align: center;
   margin-top: 35px;
