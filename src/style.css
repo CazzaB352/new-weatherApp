@@ -29,7 +29,7 @@ ul {
 
 li {
   list-style: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 100;
   line-height: 19px;
 }
@@ -64,4 +64,10 @@ li:first-letter {
 .weatherTemp {
   text-align: center;
   font-size: 30px;
+}
+
+.units {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
 }
