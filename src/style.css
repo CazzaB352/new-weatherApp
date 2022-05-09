@@ -44,11 +44,13 @@ li:first-letter {
 }
 
 .unitsCF {
-  text-decoration: none;
   text-align: center;
   padding-top: 20px;
   padding-right: 10px;
   font-size: 25px;
+}
+a {
+  text-decoration: none;
 }
 
 .celsius {
