@@ -23,7 +23,7 @@ function formatDate(timestamp) {
 }
 
 function displayTemperature(response) {
-  let temperatureElement = document.querySelector("#weather-temp");
+  let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
   let descriptionElement = document.querySelector("#description");
   let windElement = document.querySelector("#wind");
@@ -57,14 +57,14 @@ function searchLocation(position) {
 
 function displayFahrenheitTemp(event) {
   event.preventDefault();
-  let temperatureElement = document.querySelector("#weather-temp");
+  let temperatureElement = document.querySelector("#temperature");
   let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
 function displayCelsiusTemperature(event) {
   event.preventDefault();
-  let temperatureElement = document.querySelector("#weather-temp");
+  let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 

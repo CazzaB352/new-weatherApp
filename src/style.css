@@ -43,6 +43,13 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.units a {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 10px;
+  font-size: 25px;
+}
 .currentLocationButton {
   background: #d5def5;
   color: #6643b5;
@@ -64,11 +71,4 @@ li:first-letter {
 
 .overview {
   margin-bottom: 50px;
-}
-
-.units {
-  text-align: center;
-  padding-top: 20px;
-  padding-right: 10px;
-  font-size: 25px;
 }
