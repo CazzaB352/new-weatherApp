@@ -46,7 +46,7 @@ li:first-letter {
 .units a {
   text-decoration: none;
 }
-.weatherTemp {
+.weatherTemp a {
   text-align: center;
   padding-top: 20px;
   padding-right: 10px;
