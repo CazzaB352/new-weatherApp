@@ -46,6 +46,10 @@ li:first-letter {
 .units a {
   text-decoration: none;
 }
+.celsius {
+  color: #d5def5;
+}
+
 .weatherTemp a {
   text-align: center;
   padding-top: 20px;
