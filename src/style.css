@@ -43,19 +43,18 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-.units a {
+.unitsCF {
   text-decoration: none;
-}
-.celsius {
-  color: #d5def5;
-}
-
-.weatherTemp a {
   text-align: center;
   padding-top: 20px;
   padding-right: 10px;
   font-size: 25px;
 }
+
+.celsius {
+  color: #d5def5;
+}
+
 .currentLocationButton {
   background: #d5def5;
   color: #6643b5;
