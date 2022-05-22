@@ -86,6 +86,8 @@ a {
   color: #d5def5;
   background-color: #8594e4;
   border: 1px;
+  padding: 5px 0 10px 0;
+  border-radius: 20px;
 }
 
 .weather-forecast-date {
@@ -94,11 +96,11 @@ a {
 }
 
 .weather-forecast-min {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .weather-forecast-temperature {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .dayCol {
