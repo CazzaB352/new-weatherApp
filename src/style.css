@@ -79,3 +79,20 @@ a {
 .overview {
   margin-bottom: 50px;
 }
+
+.waether-forcast {
+  text-align: center;
+  color: #d5def5;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+}
+
+.weather-forecast-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
+}
