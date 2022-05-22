@@ -87,7 +87,7 @@ a {
   color: #d5def5;
   background-color: #8594e4;
   border: 1px;
-  padding: 5px 0 10px 0;
+  padding: 5px 0 20px 0;
   border-radius: 20px;
 }
 
@@ -103,6 +103,7 @@ a {
 
 .weather-forecast-temperature {
   font-size: 16px;
+  font-weight: bold;
 }
 
 .dayCol {

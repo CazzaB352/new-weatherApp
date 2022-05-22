@@ -48,7 +48,7 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `
-              <div class="col-md" "dayCol">
+              <div class="col-md">
                 <div class="weather-forecast-date">${formatDay(
                   forecastDay.dt
                 )}</div>
@@ -59,7 +59,7 @@ function displayForecast(response) {
                 <div class="weather-forecast-temperature">
                   <span class="weather-forecast-max"> ${Math.round(
                     forecastDay.temp.max
-                  )}° </span>
+                  )}° |</span>
                   <span class="weather-forecast-min"> ${Math.round(
                     forecastDay.temp.min
                   )}°
