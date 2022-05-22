@@ -84,10 +84,13 @@ a {
   margin-top: 50px;
   text-align: center;
   color: #d5def5;
+  background-color: #8594e4;
+  border: 1px;
 }
 
 .weather-forecast-date {
   font-size: 16px;
+  font-weight: bolder;
 }
 
 .weather-forecast-min {

@@ -108,8 +108,6 @@ function search(event) {
   let city = document.querySelector("#searched-city").value;
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayTemperature);
-
-  search("london");
 }
 function searchLocation(position) {
   let apiKey = "5779c89c46453cf0e47b584677d15c00";
