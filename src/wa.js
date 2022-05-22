@@ -104,11 +104,16 @@ function displayTemperature(response) {
 
 function search(event) {
   event.preventDefault();
-  let apiKey = "5779c89c46453cf0e47b584677d15c00";
   let city = document.querySelector("#searched-city").value;
+  searchCity(city);
+}
+
+function searchCity(city) {
+  let apiKey = "5779c89c46453cf0e47b584677d15c00";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayTemperature);
 }
+searchCity("London");
 
 function searchLocation(position) {
   let apiKey = "5779c89c46453cf0e47b584677d15c00";
