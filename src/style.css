@@ -84,7 +84,6 @@ a {
   margin-top: 50px;
   text-align: center;
   color: #d5def5;
-  padding: 0 5px 0 5px;
 }
 
 .weather-forecast-date {
@@ -97,4 +96,9 @@ a {
 
 .weather-forecast-temperature {
   font-size: 13px;
+}
+
+.dayCol {
+  padding: 5px;
+  background-color: #8594e4;
 }
