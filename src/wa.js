@@ -115,6 +115,8 @@ function searchLocation(position) {
   axios.get(apiUrl).then(displayTemperature);
 }
 
+search("london");
+
 function getCurrentLocation(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(searchLocation);
