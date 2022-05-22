@@ -92,7 +92,7 @@ a {
 }
 
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bolder;
 }
 
@@ -102,7 +102,7 @@ a {
 }
 
 .weather-forecast-temperature {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .dayCol {
